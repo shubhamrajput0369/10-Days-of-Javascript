@@ -34,3 +34,8 @@ function factorial(n)
     return n;
 }
 
+function main() {
+    const n = +(readLine());
+    
+    console.log(factorial(n));
+}
