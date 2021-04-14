@@ -13,3 +13,14 @@ process.stdin.on('data', inputStdin => {
     inputString += inputStdin;
 });
 
+process.stdin.on('end', _ => {
+    inputString = inputString.trim().split('\n').map(string => {
+        return string.trim();
+    });
+    
+    main();    
+});
+
+function readLine() {
+    return inputString[currentLine++];
+}
