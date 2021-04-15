@@ -31,3 +31,8 @@ function readLine() {
  */
 function vowelsAndConsonants(s) {
     
+}
+
+
+function main() {
+    const s = readLine();
