@@ -24,3 +24,10 @@ process.stdin.on('end', _ => {
 function readLine() {
     return inputString[currentLine++];
 }
+
+/*
+ * Complete the vowelsAndConsonants function.
+ * Print your output using 'console.log()'.
+ */
+function vowelsAndConsonants(s) {
+    
