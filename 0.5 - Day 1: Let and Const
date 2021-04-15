@@ -31,3 +31,7 @@ function main() {
     
     // Print the area of the circle:
     
+    // Print the perimeter of the circle:
+
+    try {    
+        // Attempt to redefine the value of constant variable PI
