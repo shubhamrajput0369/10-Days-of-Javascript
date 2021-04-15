@@ -33,6 +33,7 @@ function vowelsAndConsonants(s) {
     
 }
 
-
 function main() {
     const s = readLine();
+    vowelsAndConsonants(s);
+}
