@@ -17,3 +17,4 @@ function getGrade(score) {
     grade = 'D';}
     
     if(5<score && score<=10){
+    grade = 'E';}
