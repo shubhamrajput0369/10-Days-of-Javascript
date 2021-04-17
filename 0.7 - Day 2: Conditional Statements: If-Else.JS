@@ -21,3 +21,7 @@ function getGrade(score) {
     
     if(0<=score && score<=5){
     grade = 'F';}
+    
+    return grade;
+}
+
