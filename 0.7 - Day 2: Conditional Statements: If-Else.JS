@@ -9,3 +9,5 @@ function getGrade(score) {
     
     if(20<score && score<=25){
     grade = 'B';}
+    
+    if(15<score && score<=20){
