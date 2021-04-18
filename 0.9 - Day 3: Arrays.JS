@@ -84,3 +84,11 @@ function getSecondLargest(nums) {
             
         if(smallestdiff>diff && diff!=0)
         {
+
+            smallestdiff=diff;
+            seclarge=nums[i];
+        }
+  
+    }
+    return seclarge;
+}
