@@ -79,3 +79,8 @@ function getSecondLargest(nums) {
     
     for(let i=0;i<nums.length;i++)
     {
+
+        diff=large-nums[i];
+            
+        if(smallestdiff>diff && diff!=0)
+        {
