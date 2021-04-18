@@ -23,3 +23,11 @@ process.stdin.on('end', _ => {
 
 function readLine() {
     return inputString[currentLine++];
+}
+
+function getLetter(s) {
+    let letter;
+    // Write your code here
+    
+    return letter;
+}
