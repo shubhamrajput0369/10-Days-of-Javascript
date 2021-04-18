@@ -22,5 +22,11 @@ process.stdin.on('end', _ => {
 });
 
 function readLine() {
-    return inputString[currentLine++];
-}
+
+/**
+*   Return the second largest number in the array.
+*   @param {Number[]} nums - An array of numbers.
+*   @return {Number} The second largest number in the array.
+**/
+function getSecondLargest(nums) {
+    let large=0, seclarge=0, smallestdiff=100, diff=0;
