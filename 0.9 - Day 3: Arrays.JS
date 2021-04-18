@@ -96,3 +96,6 @@ function getSecondLargest(nums) {
 function main() {
     const n = +(readLine());
     const nums = readLine().split(' ').map(Number);
+    
+    console.log(getSecondLargest(nums));
+}
