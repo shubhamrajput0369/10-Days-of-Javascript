@@ -92,3 +92,6 @@ function getSecondLargest(nums) {
     }
     return seclarge;
 }
+
+function main() {
+    const n = +(readLine());
