@@ -35,3 +35,10 @@ function reverseString(s) {
     
     let reversed = splitted.reverse();
     
+    let joined = reversed.join("");
+    
+    console.log(joined);    
+    }
+    catch(err)
+    {
+        console.log("s.split is not a function");
