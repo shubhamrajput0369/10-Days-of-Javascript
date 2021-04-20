@@ -42,3 +42,9 @@ function reverseString(s) {
     catch(err)
     {
         console.log("s.split is not a function");
+        console.log(s);
+    }
+}
+
+
+function main() {
