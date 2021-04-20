@@ -42,3 +42,6 @@ function isPositive(a) {
 
 
 function main() {
+    const n = +(readLine());
+    
+    for (let i = 0; i < n; i++) {
