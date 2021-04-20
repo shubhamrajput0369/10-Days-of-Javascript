@@ -48,3 +48,7 @@ function reverseString(s) {
 
 
 function main() {
+    const s = eval(readLine());
+    
+    reverseString(s);
+}
