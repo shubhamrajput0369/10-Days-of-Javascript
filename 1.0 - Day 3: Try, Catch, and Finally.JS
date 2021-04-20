@@ -33,3 +33,5 @@ function reverseString(s) {
     try{
     let splitted = s.split("");
     
+    let reversed = splitted.reverse();
+    
