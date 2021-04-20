@@ -31,3 +31,15 @@ function readLine() {
 function Rectangle(a, b) {
         this.length = a;
         this.width = b;
+        this.area = a*b;
+        this.perimeter = 2*(a+b);
+}
+
+
+function main() {
+    const a = +(readLine());
+    const b = +(readLine());
+    
+    const rec = new Rectangle(a, b);
+    
+    console.log(rec.length);
