@@ -43,3 +43,7 @@ function main() {
     const rec = new Rectangle(a, b);
     
     console.log(rec.length);
+    console.log(rec.width);
+    console.log(rec.perimeter);
+    console.log(rec.area);
+}
