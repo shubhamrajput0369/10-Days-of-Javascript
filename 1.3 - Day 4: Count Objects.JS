@@ -31,3 +31,5 @@ function readLine() {
  * Parameter(s):
  * objects: an array of objects with integer properties 'x' and 'y'
  */
+function getCount(objects) {
+    return objects.reduce((target,item) => {
