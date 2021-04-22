@@ -24,3 +24,6 @@ process.stdin.on('end', _ => {
 function readLine() {
     return inputString[currentLine++];
 }
+
+/*
+ * Return a count of the total number of objects 'o' satisfying o.x == o.y.
