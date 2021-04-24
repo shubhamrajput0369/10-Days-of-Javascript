@@ -33,3 +33,5 @@ function readLine() {
  * literals: The tagged template literal's array of strings.
  * expressions: The tagged template literal's array of expression values (i.e., [area, perimeter]).
  */
+function sides(literals, ...expressions) {
+    const [a,p] = expressions;
