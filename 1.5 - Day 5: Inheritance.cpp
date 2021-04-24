@@ -29,3 +29,7 @@ const sqr = new Square(3);
     
     console.log(rec.area());
     console.log(sqr.area());
+} else {
+    console.log(-1);
+    console.log(-1);
+}
