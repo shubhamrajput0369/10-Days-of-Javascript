@@ -19,3 +19,11 @@ process.stdin.on('end', _ => {
     
     main();    
 });
+
+function readLine() {
+    return inputString[currentLine++];
+}
+
+/*
+ * Determine the original side lengths and return an array:
+ * - The first element is the length of the shorter side
