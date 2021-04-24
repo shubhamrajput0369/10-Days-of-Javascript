@@ -16,3 +16,8 @@ class Square extends Rectangle{
         super(s,s);
     }
 }
+
+
+/*
+ * Create a Square class that inherits from Rectangle and implement its class constructor
+ */
