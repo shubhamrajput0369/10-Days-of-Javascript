@@ -25,3 +25,6 @@ function readLine() {
     return inputString[currentLine++];
 }
 
+/*
+ * Modify and return the array so that all even elements are doubled and all odd elements are tripled.
+ * 
