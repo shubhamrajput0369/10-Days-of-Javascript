@@ -33,3 +33,14 @@ function getMaxLessThanK(n,k){
     {
         let and = a&b;
         if(and<k && and>max)
+        {
+            max=and;
+        }
+    }
+    return max;
+}
+
+function main() {
+    const q = +(readLine());
+    
+    for (let i = 0; i < q; i++) {
