@@ -25,3 +25,6 @@ function readLine() {
     return inputString[currentLine++];
 }
 
+function getMaxLessThanK(n,k){
+    let max=0;
+    let and;
