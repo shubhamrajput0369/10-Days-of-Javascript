@@ -38,3 +38,5 @@ function modifyArray(nums) {
 
 function main() {
     const n = +(readLine());
+    const a = readLine().split(' ').map(Number);
+    
