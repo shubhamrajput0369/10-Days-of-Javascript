@@ -42,4 +42,5 @@ function main() {
         const date = readLine();
         
         console.log(getDayName(date));
- 
+   }
+}
