@@ -24,3 +24,7 @@ process.stdin.on('end', _ => {
 function readLine() {
     return inputString[currentLine++];
 }
+
+ 
+// The days of the week are: "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+function getDayName(dateString) {
