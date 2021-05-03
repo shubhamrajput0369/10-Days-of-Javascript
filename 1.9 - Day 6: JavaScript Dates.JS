@@ -30,3 +30,4 @@ function readLine() {
 function getDayName(dateString) {
     let dayName;
     let dayNames=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    dayName = dayNames[new Date(dateString).getDay()];
