@@ -37,3 +37,5 @@ function getDayName(dateString) {
 
 function main() {
     const d = +(readLine());
+    
+    for (let i = 0; i < d; i++) {
