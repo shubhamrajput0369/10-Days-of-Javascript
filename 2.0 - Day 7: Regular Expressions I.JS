@@ -38,4 +38,9 @@ function regexVar() {
     return re;
 }
 
-
+function main() {
+    const re = regexVar();
+    const s = readLine();
+    
+    console.log(re.test(s));
+}
